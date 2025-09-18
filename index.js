@@ -80,3 +80,4 @@ renderTasks();
 
 
 setInterval(renderTasks, 60000);
+console.log("✅ Script connected");

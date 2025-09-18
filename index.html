@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Smart Todo + Priority Tracker</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Todo </title>
+    <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
+    <img src="https://tse1.mm.bing.net/th/id/OIP.GoJheQGyT-Cbk9A9Qr8MagHaE8?pid=Api&P=0&h=180" class="image" />
+    <h1>Smart Todo</h1>
+    <h1 class="head"> Add Your tasks</h1>
+    <div id="todoForm">
 
-  <h1>Smart Todo + Priority Tracker</h1>
+        <input type="text" id="taskInput" placeholder="Enter task" class="in" />
+        <input type="date" id="taskDate" class="in" />
+        <select id="taskPriority" class="in">
+            <option value="High">High</option>
+            <option value="Medium" selected>Medium</option>
+            <option value="Low">Low</option>
+        </select>
+        <button id="addTaskBtn" class="in">Add Task</button>
+    </div>
 
-  <div id="todoForm">
-    <input type="text" id="taskInput" placeholder="Enter task" />
-    <input type="date" id="taskDate" />
-    <select id="taskPriority">
-      <option value="High">High</option>
-      <option value="Medium" selected>Medium</option>
-      <option value="Low">Low</option>
-    </select>
-    <button id="addTaskBtn">Add Task</button>
-  </div>
+    <ul id="taskList"></ul>
 
-  <ul id="taskList"></ul>
-
-  <script src="script.js"></script>
+    <script src="index.js"></script>
 </body>
+
 </html>

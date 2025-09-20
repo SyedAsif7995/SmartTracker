@@ -67,12 +67,12 @@ li {
 }
 
 body {
-    background-color: green;
+    background-color: rgb(22, 22, 57);
     color: orange;
 }
 
 .in {
-    background-color: purple;
+    background-color: white;
     color: red;
 }
 
